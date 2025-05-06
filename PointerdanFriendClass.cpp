@@ -22,3 +22,19 @@ int luasPp(int a, int b)
 Lingkaran ol;
 };
 
+class Lingkaran
+{
+    public:
+    int jariJari;
+
+    void input()
+    {
+        cout << "Masukkan jari-jari : ";
+        cin >> jariJari;
+    }
+
+    int luasLingkararn(int r)
+    {
+        return 3.14 * r * r;
+    }
+};
