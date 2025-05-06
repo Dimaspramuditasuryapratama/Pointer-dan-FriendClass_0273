@@ -33,7 +33,7 @@ class Lingkaran
         cin >> jariJari;
     }
 
-    int luasLingkararn(int r)
+    int luasLingkaran(int r)
     {
         return 3.14 * r * r;
     }
@@ -49,4 +49,4 @@ int main()
     cout << "Masukkan Lebar : ";
     cin >> objekPP.lebar;
     cout << "Luas Persegi Panjang : " << objekPP.luasPp(objekPP.panjang, objekPP.lebar) << endl;
-}
+};
